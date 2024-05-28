@@ -13,6 +13,7 @@ public class Animal{ //.-.. --- ...- . .-.. -.-- / . -. -.-. .- .--. ... ..- .-.
   public String getFunFact(){
     return funFact;
   }
+  // Allows for the changeable variable aFunFact to be called by functions that would normally call the variable funFact
   public void setFunFact(String aFunFact){
     funFact=aFunFact;
 
