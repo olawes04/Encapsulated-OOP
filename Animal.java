@@ -6,6 +6,7 @@ public class Animal{ //.-.. --- ...- . .-.. -.-- / . -. -.-. .- .--. ... ..- .-.
   
   //public methods
   public Animal(String aFunFact, String anImagePath, String aName){
+    // Allows for the changeable variables to be called by functions that would normally call the standard variables
     funFact=aFunFact;
     imagePath=anImagePath;
     name=aName;
